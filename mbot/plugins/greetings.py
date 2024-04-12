@@ -32,15 +32,11 @@ from os import execvp,sys
 async def start(client,message):
     reply_markup = [[
         InlineKeyboardButton(
-            text="Bot Channel", url="https://t.me/Spotify_downloa"),
-        InlineKeyboardButton(
-            text="Repo",
-            url="https://github.com/Masterolic/Spotify-Downloader/"),
-        InlineKeyboardButton(text="Help",callback_data="helphome")
+            text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url="https://t.me/Spotify_downloa"),       InlineKeyboardButton(text="Help",callback_data="helphome")
         ],
         [
-            InlineKeyboardButton(text="Donate",
-            url="https://www.buymeacoffee.com/Masterolic"),
+            InlineKeyboardButton(text="➕𝐀𝐝𝐝 𝐦𝐞 𝐭𝐨 𝐆𝐫𝐨𝐮𝐩➕",
+            url="https://t.me/" + bot.name + "?startgroup=true"),
         ]]
     if LOG_GROUP:
 
