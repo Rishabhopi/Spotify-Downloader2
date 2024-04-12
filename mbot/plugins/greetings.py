@@ -51,8 +51,7 @@ async def start(client,message):
 🔊 𝐀𝐮𝐝𝐢𝐨 𝐫𝐞𝐜𝐨𝐫𝐝𝐢𝐧𝐠🎁
 🎥 𝐕𝐢𝐝𝐞𝐨 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐰𝐢𝐭𝐡 𝐦𝐮𝐬𝐢𝐜⭐️
 🔗 𝐋𝐢𝐧𝐤 𝐭𝐡𝐞 𝐯𝐢𝐝𝐞𝐨 𝐭𝐨 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦🌐, 𝐓𝐢𝐤-𝐓𝐨𝐤🌐, 𝐘𝐨𝐮𝐓𝐮𝐛𝐞▶️ 𝐚𝐧𝐝 𝐨𝐭𝐡𝐞𝐫 𝐬𝐢𝐭𝐞𝐬⭐️ \n
-𝐃𝐞𝐯𝐥𝐨𝐩𝐞𝐝 𝐛𝐲 🚩@Rishu1286✅️ \n
-🕺 𝐄𝐧𝐣𝐨𝐲🥀!",
+𝐃𝐞𝐯𝐥𝐨𝐩𝐞𝐝 𝐛𝐲 🚩@Rishu1286✅️ \n🕺 𝐄𝐧𝐣𝐨𝐲🥀!",
                     reply_markup=InlineKeyboardMarkup(reply_markup))
 
 @Mbot.on_message(filters.command("restart") & filters.chat(OWNER_ID) & filters.private)
