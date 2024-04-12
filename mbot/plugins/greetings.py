@@ -32,7 +32,7 @@ from os import execvp,sys
 async def start(client,message):
     reply_markup = [[
         InlineKeyboardButton(
-            text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url="https://t.me/Ur_rishu_143"),       InlineKeyboardButton(text="Help",callback_data="helphome")
+            text="🥀𝐂𝐡𝐚𝐧𝐧𝐞𝐥🍁", url="https://t.me/Ur_rishu_143"),       InlineKeyboardButton(text="🌹Help🪅",callback_data="helphome")
         ],
         [
             InlineKeyboardButton(text="➕𝐀𝐝𝐝 𝐦𝐞 𝐭𝐨 𝐆𝐫𝐨𝐮𝐩➕",
@@ -41,7 +41,7 @@ async def start(client,message):
     if LOG_GROUP:
 
         invite_link = await client.create_chat_invite_link(chat_id=(int(LOG_GROUP) if str(LOG_GROUP).startswith("-100") else LOG_GROUP))
-        reply_markup.append([InlineKeyboardButton("LOG Channel", url=invite_link.invite_link)])
+        reply_markup.append([InlineKeyboardButton("💮𝐋𝐨𝐠 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🌺", url=invite_link.invite_link)])
     return await message.reply_text(f"Hello {message.from_user.first_name}, I'm a Simple Music Downloader Bot. I Currently Support Download from Youtube.",
                     reply_markup=InlineKeyboardMarkup(reply_markup))
 
