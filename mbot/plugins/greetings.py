@@ -42,7 +42,7 @@ async def start(client,message):
 
         invite_link = await client.create_chat_invite_link(chat_id=(int(LOG_GROUP) if str(LOG_GROUP).startswith("-100") else LOG_GROUP))
         reply_markup.append([InlineKeyboardButton("💮𝐋𝐨𝐠 𝐂𝐡𝐚𝐧𝐧𝐞𝐥🌺", url=invite_link.invite_link)])
-    return await message.reply_photo(URl,text),(URl=https://graph.org/file/6461b3ec1edb3c561b144.jpg)(f"👋 𝐇𝐢! {message.from_user.first_name},\n
+    return await message.reply_photo(URl,text),(URl=https://graph.org/file/6461b3ec1edb3c561b144.jpg),(f"👋 𝐇𝐢! {message.from_user.first_name},\n
 𝐈'𝐥𝐥 𝐡𝐞𝐥𝐩 𝐲𝐨𝐮 𝐟𝐢𝐧𝐝 𝐦𝐮𝐬𝐢𝐜 🎶 𝐬𝐞𝐧𝐝 𝐦𝐞 𝐬𝐨𝐦𝐞 𝐨𝐟 𝐭𝐡𝐢𝐬:⭐️\n\n
 🎵𝐒𝐨𝐧𝐠 𝐭𝐢𝐭𝐥𝐞 𝐨𝐫 𝐚𝐫𝐭𝐢𝐬𝐭⭐️
 🔤 𝐋𝐲𝐫𝐢𝐜𝐬 𝐟𝐫𝐨𝐦 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠✍️
