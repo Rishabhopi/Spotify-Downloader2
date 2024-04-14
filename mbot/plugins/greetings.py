@@ -36,7 +36,7 @@ async def start(client,message):
         ],
         [
             InlineKeyboardButton(text="➕𝐀𝐝𝐝 𝐦𝐞 𝐭𝐨 𝐆𝐫𝐨𝐮𝐩➕",
-            url="https://t.me/"+bot.name+"?startgroup=true"),
+            url="https://t.me/{app.username}?startgroup=true"),
         ]]
     if LOG_GROUP:
 
